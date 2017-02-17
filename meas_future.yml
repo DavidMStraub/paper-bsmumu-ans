@@ -1,0 +1,19 @@
+Bs->mumu Run 4 SM:
+  values:
+    BR(Bs->mumu): (3.59 +- 0.19) e-9
+    ADeltaGamma(Bs->mumu): 1 +- 0.8
+
+Bs->mumu Run 5 SM:
+  values:
+    BR(Bs->mumu): (3.59 +- 0.08) e-9
+    ADeltaGamma(Bs->mumu): 1 +- 0.3
+
+Bs->mumu Run 4 NP:
+  values:
+    BR(Bs->mumu): (3.59 +- 0.19) e-9
+    ADeltaGamma(Bs->mumu): -1 +- 0.8
+
+Bs->mumu Run 5 NP:
+  values:
+    BR(Bs->mumu): (3.59 +- 0.08) e-9
+    ADeltaGamma(Bs->mumu): -1 +- 0.3
