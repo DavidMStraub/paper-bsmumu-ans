@@ -25,7 +25,7 @@ bayesian_fit = flavio.statistics.fits.BayesianFit(
                              'f_Bs', 'f_B0', 'gamma', 'tau_Bs', 'tau_B0', ],
                 observables = [ 'BR(Bs->mumu)', 'BR(Bd->mumu)', ],
                 fit_wc_function = wc_fct_smeft,
-                start_wc_starts = wc_start,
+                start_wc_priors = wc_start,
                 input_scale = 4.8,
                 include_measurements = ['LHCb Bs->mumu 2017', 'CMS Bs->mumu 2013'],
             )
@@ -36,7 +36,7 @@ fast_fit = flavio.statistics.fits.FastFit(
                 nuisance_parameters = 'all',
                 observables = [ 'BR(Bs->mumu)', 'BR(Bd->mumu)', ],
                 fit_wc_function = wc_fct_smeft,
-                fit_wc_starts = wc_start,
+                start_wc_priors = wc_start,
                 input_scale = 4.8,
                 include_measurements = ['LHCb Bs->mumu 2017', 'CMS Bs->mumu 2013'],
             )
@@ -59,7 +59,7 @@ for future in ['Run 4 SM', 'Run 4 NP', 'Run 5 SM', 'Run 5 NP']:
                 nuisance_parameters = 'all',
                 observables = [ 'BR(Bs->mumu)', 'ADeltaGamma(Bs->mumu)', ],
                 fit_wc_function = wc_fct_smeft,
-                fit_wc_starts = wc_start,
+                start_wc_priors = wc_start,
                 input_scale = 4.8,
                 include_measurements = ['Bs->mumu ' + future],
             )
